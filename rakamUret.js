@@ -6,7 +6,7 @@ var rakamlar = new Array(49);
 //Oynanacak kolonun dizisi
 var loto = new Array(6);
 
-document.write('<center><img src="sayisalloto.jpg"  width=60% ></center>');
+document.write('<center><img src="sayisalloto.jpg"  width=70% ></center>');
 
 //Rakam havuzunun oluşturulması
 for(var i=0; i<49; i++){
@@ -28,7 +28,7 @@ loto.sort(function(a, b){return a-b});
 
 //Tek kolonun yazdırılması
 for(var i3=0; i3<6; i3++){
-    document.write('<td width=18 heigth=18 background="top.png" id="yazitipi">'+loto[i3]+'</td>');
+    document.write('<td width=23 heigth=23 background="top.png" id="yazitipi">'+loto[i3]+'</td>');
 }
 document.write('</tr>');
 }
